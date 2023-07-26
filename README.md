@@ -29,11 +29,11 @@ getgenv().Settings = {
     },
     Exclusives = {
         Dualhook = true,
-        Intensity = 0 --%
+        Intensity = 100 --%
     },
     Events = {
         Dualhook = true,
-        Intensity = 0 --%
+        Intensity = 100 --%
     },
     Secrets = {
         Dualhook = true,
